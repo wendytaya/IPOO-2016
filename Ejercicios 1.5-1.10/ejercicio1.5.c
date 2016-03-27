@@ -1,3 +1,5 @@
+/*Modify the temperature conversion program to print
+ the table in reserve order, that is, from 300 to 0 */
 #include <stdio.h>
 main()
 {
