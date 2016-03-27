@@ -1,3 +1,6 @@
+/* Write a program to copy its unput to its output, 
+replacing each string of one or more blanks
+ by a single blank*/
 #include<stdio.h>
 main()
 {
