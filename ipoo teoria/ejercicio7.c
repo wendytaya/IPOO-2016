@@ -7,7 +7,7 @@ main()
 	 factorial=1;
 	 i=1;
 	 printf("Ingrese un numero entero positivo \n");
-	 scanf("%d",n);
+	 scanf("%d",&n);
 	 
 	 if (n<=0){
 	 	printf("%d no es un entero positivo",n);
