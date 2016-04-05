@@ -6,7 +6,7 @@
 
 int ngetline(char line[],int lim);
 
-int main(void)
+int main()
 {
   int len;
   char line[MAXLINE];
@@ -24,7 +24,7 @@ int ngetline(char s[],int lim)
 {
   int i,c;
   
-  for(i=0;i<lim-1 &&(c=getchar())!=EOF && c!='\n';++i)
+  for(i=0;i<lim &&(c=getchar())!=EOF && c!='\n';++i)
     s[i]=c;
 
   if(c == '\n')
